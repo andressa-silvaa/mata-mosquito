@@ -1,11 +1,13 @@
 html{
 	cursor: url(../imagens/mata_mosca.png) 30 30,auto;
 }
-body{
+body {
     background-image: url('../imagens/bg.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed; /* Adicionado para fixar o fundo */
 }
+
 .ladoA{
     transform:scaleX(1) ;
 }
