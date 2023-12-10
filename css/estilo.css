@@ -1,0 +1,35 @@
+html{
+	cursor: url(../imagens/mata_mosca.png) 30 30,auto;
+}
+body{
+    background-image: url('../imagens/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ladoA{
+    transform:scaleX(1) ;
+}
+.ladoB{
+    transform:scaleX(-1) ;
+}
+
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top:solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7
+}
+
+.vidas {
+	float: left;
+}
+
+.cronometro {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
